@@ -1,6 +1,6 @@
-# Ant Piano-Movers Puzzle — Interactive Simulation
+# Ant Piano-Movers Cause Problems on Purpose — Interactive Solution 
 
-Enjoy this agent-based simulation of collective geometric puzzle-solving, built by Angie Normandale and inspired by **Dreyer, Haluts, Korman, Gov, Fonio & Feinerman (2025)**, *"Comparing cooperative geometric puzzle solving in ants versus humans"*, Proceedings of the National Academy of Sciences, 122(1), e2414274121.
+An agent-based simulation of collective geometric puzzle-solving, inspired by **Dreyer, Haluts, Korman, Gov, Fonio & Feinerman (2025)**, *"Comparing cooperative geometric puzzle solving in ants versus humans"*, Proceedings of the National Academy of Sciences, 122(1), e2414274121.
 
 ---
 
@@ -11,6 +11,14 @@ Researchers at the Weizmann Institute of Science challenged groups of longhorn c
 Their key finding was that large ant groups outperformed small ones — and even outperformed communication-restricted human groups — by developing **emergent cognitive abilities**. Individual ants cannot grasp the global structure of the puzzle, but the collective motion of a large group translates into short-term directional memory (encoded in the group's internally ordered state, analogous to ordered spins in statistical mechanics) and a wall-sliding heuristic reminiscent of the right-hand rule for maze solving. Small groups, by contrast, exhibit diffusive random-walk dynamics with frequent dead-ends and backtracking.
 
 This simulation recreates those dynamics with two distinct agent populations, a simulated-annealing framework for stuck detection and recovery, a nest-direction bias, and tuneable parameters that let you explore the puzzle's difficulty space.
+
+---
+
+## Biological Motivation: Causing problems on purpose 
+
+The simulated annealing framework draws on the **exploration–exploitation tradeoff** fundamental to animal foraging (Mehlhorn et al., 2015; Addicott et al., 2017). In uncertain or changing reward landscapes, organisms must flexibly alternate between exploiting known rewards and exploring alternatives (Stephens & Krebs, 1986; Charnov, 1976). This produces behaviour that appears irrational — Skinner's (1948) pigeons developed seemingly purposeless rituals under non-contingent reinforcement, and while these have been reinterpreted as species-typical foraging responses (Staddon & Simmelhag, 1971; Timberlake & Lucas, 1985), the broader principle holds: animals routinely take actions that move them away from a goal in order to sample an uncertain reward landscape. Anselme (2023) argues these "suboptimal" behaviours reflect adaptive uncertainty resolution rather than genuine irrationality.
+
+In this simulation, SA maps directly onto this dynamic. Low temperature corresponds to exploitation (directed nestward motion); high temperature corresponds to exploration (scattered headings, random torque, direction reversals that send the load back through chambers). The apparently counterproductive retreat allows the collective to escape local traps and discover new approach angles. Crucially, this requires **no individual awareness** of the T-shape's geometry and **no inter-agent communication** — only environmental feedback from whether the load is moving or stuck, transmitted through shared physical forces. This is consistent with Dreyer et al. (2025), who showed that emergent collective cognition in ant groups arises from the ordered state of the group, not from individual understanding or direct communication.
 
 ---
 
@@ -68,6 +76,20 @@ When progress resumes, temperatures drop. Sliders cool with a multiplicative fac
 ### Direction Reversal
 
 When the average temperature across all agents exceeds a threshold, the collective may **reverse its travel direction** entirely, sending the load back through a chamber to try a new approach angle. The probability of reversal scales with temperature. On reversal, agent headings are shaken by a random perturbation proportional to the current temperature, and random torque may be applied to rotate the T-shape into novel orientations.
+
+---
+
+### References
+
+- Addicott, M.A., Pearson, J.M., Sweitzer, M.M., Barack, D.L. & Platt, M.L. (2017). A primer on foraging and the explore/exploit trade-off for psychiatry research. *Neuropsychopharmacology*, 42(10), 1931–1939.
+- Anselme, P. (2023). Information matters more than primary reward. *Animal Behavior and Cognition*, 10(4), 331–350.
+- Charnov, E.L. (1976). Optimal foraging, the marginal value theorem. *Theoretical Population Biology*, 9(2), 129–136.
+- Dreyer, T., Haluts, A., Korman, A., Gov, N., Fonio, E. & Feinerman, O. (2025). Comparing cooperative geometric puzzle solving in ants versus humans. *PNAS*, 122(1), e2414274121.
+- Mehlhorn, K., Newell, B.R., Todd, P.M., Lee, M.D., Morgan, K., Braithwaite, V.A., Hausmann, D., Fiedler, K. & Gonzalez, C. (2015). Unpacking the exploration–exploitation tradeoff: A synthesis of human and animal literatures. *Decision*, 2(3), 191–215.
+- Skinner, B.F. (1948). 'Superstition' in the pigeon. *Journal of Experimental Psychology*, 38, 168–172.
+- Staddon, J.E.R. & Simmelhag, V.L. (1971). The 'superstition' experiment: A reexamination of its implications for the principles of adaptive behavior. *Psychological Review*, 78(1), 3–43.
+- Stephens, D.W. & Krebs, J.R. (1986). *Foraging Theory*. Princeton University Press.
+- Timberlake, W. & Lucas, G.A. (1985). The basis of superstitious behavior: Chance contingency, stimulus substitution, or appetitive behavior? *Journal of the Experimental Analysis of Behavior*, 44(3), 279–299.
 
 ---
 
