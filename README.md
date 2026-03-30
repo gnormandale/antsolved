@@ -79,20 +79,6 @@ When the average temperature across all agents exceeds a threshold, the collecti
 
 ---
 
-### References
-
-- Addicott, M.A., Pearson, J.M., Sweitzer, M.M., Barack, D.L. & Platt, M.L. (2017). A primer on foraging and the explore/exploit trade-off for psychiatry research. *Neuropsychopharmacology*, 42(10), 1931–1939.
-- Anselme, P. (2023). Information matters more than primary reward. *Animal Behavior and Cognition*, 10(4), 331–350.
-- Charnov, E.L. (1976). Optimal foraging, the marginal value theorem. *Theoretical Population Biology*, 9(2), 129–136.
-- Dreyer, T., Haluts, A., Korman, A., Gov, N., Fonio, E. & Feinerman, O. (2025). Comparing cooperative geometric puzzle solving in ants versus humans. *PNAS*, 122(1), e2414274121.
-- Mehlhorn, K., Newell, B.R., Todd, P.M., Lee, M.D., Morgan, K., Braithwaite, V.A., Hausmann, D., Fiedler, K. & Gonzalez, C. (2015). Unpacking the exploration–exploitation tradeoff: A synthesis of human and animal literatures. *Decision*, 2(3), 191–215.
-- Skinner, B.F. (1948). 'Superstition' in the pigeon. *Journal of Experimental Psychology*, 38, 168–172.
-- Staddon, J.E.R. & Simmelhag, V.L. (1971). The 'superstition' experiment: A reexamination of its implications for the principles of adaptive behavior. *Psychological Review*, 78(1), 3–43.
-- Stephens, D.W. & Krebs, J.R. (1986). *Foraging Theory*. Princeton University Press.
-- Timberlake, W. & Lucas, G.A. (1985). The basis of superstitious behavior: Chance contingency, stimulus substitution, or appetitive behavior? *Journal of the Experimental Analysis of Behavior*, 44(3), 279–299.
-
----
-
 ## Nest-Direction Bias
 
 A biologically motivated asymmetry ensures that **retreating is always uncomfortable**:
@@ -206,9 +192,18 @@ Following the original paper, the puzzle's configuration space is three-dimensio
 
 ---
 
-## Reference
+## References
 
-Dreyer, T., Haluts, A., Korman, A., Gov, N., Fonio, E. & Feinerman, O. (2025). Comparing cooperative geometric puzzle solving in ants versus humans. *Proceedings of the National Academy of Sciences*, 122(1), e2414274121. https://doi.org/10.1073/pnas.2414274121
+- Addicott, M.A., Pearson, J.M., Sweitzer, M.M., Barack, D.L. & Platt, M.L. (2017). A primer on foraging and the explore/exploit trade-off for psychiatry research. *Neuropsychopharmacology*, 42(10), 1931–1939.
+- Anselme, P. (2023). Information matters more than primary reward. *Animal Behavior and Cognition*, 10(4), 331–350.
+- Charnov, E.L. (1976). Optimal foraging, the marginal value theorem. *Theoretical Population Biology*, 9(2), 129–136.
+- Dreyer, T., Haluts, A., Korman, A., Gov, N., Fonio, E. & Feinerman, O. (2025). Comparing cooperative geometric puzzle solving in ants versus humans. *PNAS*, 122(1), e2414274121.
+- Mehlhorn, K., Newell, B.R., Todd, P.M., Lee, M.D., Morgan, K., Braithwaite, V.A., Hausmann, D., Fiedler, K. & Gonzalez, C. (2015). Unpacking the exploration–exploitation tradeoff: A synthesis of human and animal literatures. *Decision*, 2(3), 191–215.
+- Skinner, B.F. (1948). 'Superstition' in the pigeon. *Journal of Experimental Psychology*, 38, 168–172.
+- Staddon, J.E.R. & Simmelhag, V.L. (1971). The 'superstition' experiment: A reexamination of its implications for the principles of adaptive behavior. *Psychological Review*, 78(1), 3–43.
+- Stephens, D.W. & Krebs, J.R. (1986). *Foraging Theory*. Princeton University Press.
+- Timberlake, W. & Lucas, G.A. (1985). The basis of superstitious behavior: Chance contingency, stimulus substitution, or appetitive behavior? *Journal of the Experimental Analysis of Behavior*, 44(3), 279–299.
+
 
 ---
 
