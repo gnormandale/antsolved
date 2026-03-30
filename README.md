@@ -14,7 +14,7 @@ This simulation recreates those dynamics with two distinct agent populations, a 
 
 ---
 
-## Biological Motivation: Causing problems on purpose 
+## Biological Motivation: Causing Problems on Purpose 
 
 The simulated annealing framework draws on the **exploration–exploitation tradeoff** fundamental to animal foraging (Mehlhorn et al., 2015; Addicott et al., 2017). In uncertain or changing reward landscapes, organisms must flexibly alternate between exploiting known rewards and exploring alternatives (Stephens & Krebs, 1986; Charnov, 1976). This produces behaviour that appears irrational — Skinner's (1948) pigeons developed seemingly purposeless rituals under non-contingent reinforcement, and while these have been reinterpreted as species-typical foraging responses (Staddon & Simmelhag, 1971; Timberlake & Lucas, 1985), the broader principle holds: animals routinely take actions that move them away from a goal in order to sample an uncertain reward landscape. Anselme (2023) argues these "suboptimal" behaviours reflect adaptive uncertainty resolution rather than genuine irrationality.
 
